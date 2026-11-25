@@ -17,6 +17,9 @@ npm run build
 
 Run `npm run test:watch` for watch mode or `npm run preview` to serve the build.
 
+Open `/samples/` on the Vite dev or preview server to try
+[two independent counters composed with `combineLatest`](samples/counters.tsx).
+
 ## How it works
 
 - TypeScript's classic JSX settings target the local `h` factory. Vite and Vitest
